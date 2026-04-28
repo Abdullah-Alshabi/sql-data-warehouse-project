@@ -24,9 +24,13 @@ The warehouse is organized into three logical layers:
 
 ## Project Structure
 /datasets -> Raw input data (CSV)
+
 /scripts -> SQL scripts (DDL, ETL)
+
 /bronze -> Raw ingestion layer
+
 /silver -> Cleaned and transformed data
+
 /gold -> Analytical layer (fact & dimension tables)
 
 ## Outcome
